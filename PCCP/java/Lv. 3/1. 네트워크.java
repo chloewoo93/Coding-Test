@@ -38,7 +38,7 @@ class Solution {
             // 연결되어 있고 아직 방문 안 했으면 방문
             if (!visited[j] && computers[node][j] == 1) {
                 dfs(j, computers, visited);
-            }
+            } 
         }
     }
 }
